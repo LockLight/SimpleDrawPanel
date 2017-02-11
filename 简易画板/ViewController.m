@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "LLPanelView.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet LLPanelView *panelView;
 
 @end
 
@@ -17,6 +19,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)changeLineWidth:(UISlider *)sender {
+    self.panelView.lineSize = sender.value;
 }
 
 

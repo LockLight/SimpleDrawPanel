@@ -13,6 +13,7 @@
 		CD8B17591E4F2777004C6EE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8B17571E4F2777004C6EE3 /* Main.storyboard */; };
 		CD8B175B1E4F2777004C6EE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD8B175A1E4F2777004C6EE3 /* Assets.xcassets */; };
 		CD8B175E1E4F2777004C6EE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8B175C1E4F2777004C6EE3 /* LaunchScreen.storyboard */; };
+		CD8B17671E4F31E6004C6EE3 /* LLPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B17661E4F31E6004C6EE3 /* LLPanelView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		CD8B175A1E4F2777004C6EE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD8B175D1E4F2777004C6EE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD8B175F1E4F2777004C6EE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD8B17651E4F31E6004C6EE3 /* LLPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LLPanelView.h; path = ../LLPanelView.h; sourceTree = "<group>"; };
+		CD8B17661E4F31E6004C6EE3 /* LLPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LLPanelView.m; path = ../LLPanelView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 		CD8B174E1E4F2777004C6EE3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CD8B17651E4F31E6004C6EE3 /* LLPanelView.h */,
+				CD8B17661E4F31E6004C6EE3 /* LLPanelView.m */,
 				CD8B174F1E4F2777004C6EE3 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -154,6 +159,7 @@
 				CD8B17561E4F2777004C6EE3 /* ViewController.m in Sources */,
 				CD8B17531E4F2777004C6EE3 /* AppDelegate.m in Sources */,
 				CD8B17501E4F2777004C6EE3 /* main.m in Sources */,
+				CD8B17671E4F31E6004C6EE3 /* LLPanelView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
