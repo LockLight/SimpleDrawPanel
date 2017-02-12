@@ -33,7 +33,7 @@
                                             <barButtonItem style="plain" systemItem="flexibleSpace" id="LnY-bh-poT"/>
                                             <barButtonItem style="plain" id="Hso-Mv-aaO">
                                                 <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="D0d-Xw-UHC">
-                                                    <rect key="frame" x="15" y="8" width="35" height="35"/>
+                                                    <rect key="frame" x="15" y="7.5" width="35" height="35"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                                     <connections>
@@ -43,7 +43,7 @@
                                             </barButtonItem>
                                             <barButtonItem style="plain" id="SPX-7h-MML">
                                                 <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gTv-jq-igI">
-                                                    <rect key="frame" x="60" y="8" width="35" height="35"/>
+                                                    <rect key="frame" x="60" y="7.5" width="35" height="35"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <connections>
@@ -54,7 +54,7 @@
                                             <barButtonItem style="plain" systemItem="flexibleSpace" id="3FY-ZJ-l0R"/>
                                             <barButtonItem style="plain" id="U7q-xp-iOy">
                                                 <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="OqO-uf-Trn">
-                                                    <rect key="frame" x="104" y="8" width="35" height="35"/>
+                                                    <rect key="frame" x="104" y="7.5" width="35" height="35"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <connections>
@@ -65,7 +65,7 @@
                                             <barButtonItem style="plain" systemItem="flexibleSpace" id="slr-J1-Czm"/>
                                             <barButtonItem style="plain" id="Ve3-eA-NpJ">
                                                 <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4zr-Rq-SVf">
-                                                    <rect key="frame" x="148" y="8" width="35" height="35"/>
+                                                    <rect key="frame" x="148" y="7.5" width="35" height="35"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <connections>
@@ -76,7 +76,7 @@
                                             <barButtonItem style="plain" systemItem="flexibleSpace" id="tSL-97-PUr"/>
                                             <barButtonItem style="plain" id="l6x-xF-XMS">
                                                 <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oS8-8e-fSL">
-                                                    <rect key="frame" x="192" y="8" width="35" height="35"/>
+                                                    <rect key="frame" x="192" y="7.5" width="35" height="35"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <connections>
@@ -87,7 +87,7 @@
                                             <barButtonItem style="plain" systemItem="flexibleSpace" id="g5A-kf-2dl"/>
                                             <barButtonItem style="plain" id="bvP-iw-dcH">
                                                 <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0D5-bj-umt">
-                                                    <rect key="frame" x="236" y="8" width="35" height="35"/>
+                                                    <rect key="frame" x="236" y="7.5" width="35" height="35"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
                                                     <connections>
@@ -98,7 +98,7 @@
                                             <barButtonItem style="plain" systemItem="flexibleSpace" id="XVx-21-XgF"/>
                                             <barButtonItem style="plain" id="iH8-2o-qVP">
                                                 <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TIo-5C-poG">
-                                                    <rect key="frame" x="280" y="8" width="35" height="35"/>
+                                                    <rect key="frame" x="280" y="7.5" width="35" height="35"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <connections>
@@ -109,7 +109,7 @@
                                             <barButtonItem style="plain" systemItem="flexibleSpace" id="tti-4C-1QO"/>
                                             <barButtonItem style="plain" id="mhZ-W0-Ci6">
                                                 <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1re-DI-lRd">
-                                                    <rect key="frame" x="324" y="8" width="35" height="35"/>
+                                                    <rect key="frame" x="324" y="7.5" width="35" height="35"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <connections>
@@ -146,7 +146,6 @@
                                         </connections>
                                     </slider>
                                 </subviews>
-                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="Y6P-MC-tR7" firstAttribute="top" secondItem="bo0-du-1eU" secondAttribute="top" constant="8" id="4IM-fb-xik"/>
                                     <constraint firstAttribute="trailing" secondItem="Ojn-OP-cQ7" secondAttribute="trailing" constant="8" id="ACw-Ia-2E3"/>
