@@ -7,6 +7,7 @@
 //
 
 #import "LLPanelView.h"
+#import "LLBezierPath.h"
 
 
 @implementation LLPanelView
@@ -17,6 +18,8 @@
     if(_pathList == nil){
         //实例化路径数组
         _pathList = [NSMutableArray array];
+//        //默认线宽
+//        _lineSize = 3;
     }
     return _pathList;
 }
@@ -25,7 +28,9 @@
     if(self.pathList == nil){
         return;
     }
-    for (UIBezierPath *path in self.pathList) {
+    for (LLBezierPath *path in self.pathList) {
+        
+        [path.lineColor set];
         //渲染描边
         [path stroke];
     }
@@ -38,10 +43,12 @@
     CGPoint location = [touch locationInView:self];
     
     //创建路径对象
-    UIBezierPath *path = [UIBezierPath bezierPath];
+    LLBezierPath *path = [LLBezierPath bezierPath];
     
     //设置路径属性
-    path.lineWidth = self.lineSize;
+    path.lineWidth = self.lineSize == 0 ? 3 :self.lineSize;
+    //设置路径颜色
+    path.lineColor = self.lineColor;
     
     //添加到路径对象数组
     [self.pathList addObject:path];
@@ -56,7 +63,7 @@
     CGPoint location = [touch locationInView:self];
     
     //创建路径对象
-    UIBezierPath *path = self.pathList.lastObject;
+    LLBezierPath *path = self.pathList.lastObject;
 
     
     [path addLineToPoint:location];

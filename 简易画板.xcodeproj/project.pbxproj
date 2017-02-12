@@ -14,6 +14,7 @@
 		CD8B175B1E4F2777004C6EE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD8B175A1E4F2777004C6EE3 /* Assets.xcassets */; };
 		CD8B175E1E4F2777004C6EE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8B175C1E4F2777004C6EE3 /* LaunchScreen.storyboard */; };
 		CD8B17671E4F31E6004C6EE3 /* LLPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B17661E4F31E6004C6EE3 /* LLPanelView.m */; };
+		CD8B176A1E4F408B004C6EE3 /* LLBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B17691E4F408B004C6EE3 /* LLBezierPath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		CD8B175F1E4F2777004C6EE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD8B17651E4F31E6004C6EE3 /* LLPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LLPanelView.h; path = ../LLPanelView.h; sourceTree = "<group>"; };
 		CD8B17661E4F31E6004C6EE3 /* LLPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LLPanelView.m; path = ../LLPanelView.m; sourceTree = "<group>"; };
+		CD8B17681E4F408B004C6EE3 /* LLBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBezierPath.h; sourceTree = "<group>"; };
+		CD8B17691E4F408B004C6EE3 /* LLBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBezierPath.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 			children = (
 				CD8B17651E4F31E6004C6EE3 /* LLPanelView.h */,
 				CD8B17661E4F31E6004C6EE3 /* LLPanelView.m */,
+				CD8B17681E4F408B004C6EE3 /* LLBezierPath.h */,
+				CD8B17691E4F408B004C6EE3 /* LLBezierPath.m */,
 				CD8B174F1E4F2777004C6EE3 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -158,6 +163,7 @@
 			files = (
 				CD8B17561E4F2777004C6EE3 /* ViewController.m in Sources */,
 				CD8B17531E4F2777004C6EE3 /* AppDelegate.m in Sources */,
+				CD8B176A1E4F408B004C6EE3 /* LLBezierPath.m in Sources */,
 				CD8B17501E4F2777004C6EE3 /* main.m in Sources */,
 				CD8B17671E4F31E6004C6EE3 /* LLPanelView.m in Sources */,
 			);

@@ -1,5 +1,5 @@
 //
-//  LLPanelView.h
+//  LLBezierPath.h
 //  简易画板
 //
 //  Created by locklight on 17/2/11.
@@ -7,13 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-@class LLBezierPath;
 
-@interface LLPanelView : UIView
+@interface LLBezierPath : UIBezierPath
 
-@property (nonatomic, assign) CGFloat lineSize;
 @property (nonatomic, strong) UIColor *lineColor;
-
-@property (nonatomic, strong) NSMutableArray <LLBezierPath *> *pathList;
-
 @end
